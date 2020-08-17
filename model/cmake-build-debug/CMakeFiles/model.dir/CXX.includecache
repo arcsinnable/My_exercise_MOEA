@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sinnable/CLionProjects/model/global.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+math.h
+-
+iostream
+-
+
+/home/sinnable/CLionProjects/model/initialize.cpp
+initialize.h
+/home/sinnable/CLionProjects/model/initialize.h
+
+/home/sinnable/CLionProjects/model/initialize.h
+global.h
+/home/sinnable/CLionProjects/model/global.h
+

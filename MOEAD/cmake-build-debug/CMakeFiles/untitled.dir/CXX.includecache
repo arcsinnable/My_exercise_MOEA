@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sinnable/CLionProjects/MOEAD/global.h
+iostream
+-
+time.h
+-
+math.h
+-
+float.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+random
+-
+
+/home/sinnable/CLionProjects/MOEAD/memory.cpp
+memory.h
+/home/sinnable/CLionProjects/MOEAD/memory.h
+
+/home/sinnable/CLionProjects/MOEAD/memory.h
+global.h
+/home/sinnable/CLionProjects/MOEAD/global.h
+

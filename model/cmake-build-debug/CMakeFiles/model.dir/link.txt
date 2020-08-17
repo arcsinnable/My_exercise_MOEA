@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/model.dir/main.cpp.o CMakeFiles/model.dir/global.cpp.o CMakeFiles/model.dir/initialize.cpp.o CMakeFiles/model.dir/reproduct.cpp.o  -o model 
